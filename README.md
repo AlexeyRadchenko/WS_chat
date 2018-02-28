@@ -11,7 +11,7 @@ Install
 ```sh
 $ virtualenv -p python3.6 envname
 $ source envname/bin/activate
-$ git clone
+$ git clone https://github.com/AlexeyRadchenko/WS_chat.git
 $ cd WS_Chat
 $ pip install -r requirements.txt
 $ python manage.py runserver
