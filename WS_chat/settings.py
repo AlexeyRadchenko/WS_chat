@@ -61,7 +61,6 @@ DATABASES = {
 
 CHANNEL_LAYERS = {
     "default": {
-        # This example app uses the Redis channel layer implementation channels_redis
         "BACKEND": "channels_redis.core.RedisChannelLayer",
         "CONFIG": {
             "hosts": [(redis_host, 6379)],
@@ -89,4 +88,3 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
-
